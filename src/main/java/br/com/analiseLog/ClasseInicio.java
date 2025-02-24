@@ -12,5 +12,8 @@ public class ClasseInicio {
         ColetarLog coletarLog = new ColetarLog();
         TelaDadoUsuario telaDousuario = new TelaDadoUsuario();
 
+        telaInicial.inicio();
+        EntradaLog entradaLog = coletarLog.receberlog(); //
+        telaDousuario.apresentarLog(entradaLog);
     }
 }
